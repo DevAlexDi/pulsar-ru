@@ -9,7 +9,8 @@ $(document).ready(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false
+                    arrows: false,
+                    adaptiveHeight: true
                 }
             }
         ]
@@ -189,5 +190,30 @@ $(document).ready(function () {
     });
 
 
+    
+    
+    
+    
+    
+    
+    $('.open-modal-1').click(function(){
+        $('#betrip').modal('show');
+    });
+    $('.open-modal-2').click(function(){
+        $('#mouse').modal('show');
+    });
+    $('.open-modal-3').click(function(){
+        $('#tracks').modal('show');
+    });
+    $('.open-modal-4').click(function(){
+        $('#TryFit').modal('show');
+    });
+    $('.open-modal-5').click(function(){
+        $('#Vyng').modal('show');
+    });
+    $('.open-modal-6').click(function(){
+        $('#vango').modal('show');
+    });
+    
 
 });
