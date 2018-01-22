@@ -325,6 +325,11 @@
     padding-right: 10px; }
 
   .section-13-STRUCTURE h3 {
-    font-size: 38px; } }
+    font-size: 38px; }
+
+  .parteners .flex-partners .one-partner {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=media.css.map */
